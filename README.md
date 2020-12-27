@@ -13,7 +13,7 @@ First app I ever developed and it's the one I'm the most proud of since it was t
 - Shared Prefs and multi-language support
 
 **Video presentation:**
-
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/RemindMe-Gif.gif)
 
 **2. MathThat!**
 
