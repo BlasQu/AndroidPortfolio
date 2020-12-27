@@ -2,6 +2,7 @@
 
 **1. RemindMe!**
 
+App is designed to store neccesary informations like login/password/pin. It also gives a possibility to provide additional description for different credentials.
 First app I ever developed and it's the one I'm the most proud of since it was the most polished one.
 (Work time: 21 hours)
 
@@ -18,7 +19,9 @@ First app I ever developed and it's the one I'm the most proud of since it was t
 
 **2. MathThat!**
 
-Calculator with material design. Includes romanian calculator.
+
+Calculator with material design - includes romanian calculator.
+I developed this app mainly because I was curious how livedata can synchronize with StringBuilder and coroutines at realtime changes on UI.
 (Work time: 11.5 hours)
 
 **What tools I used:**
