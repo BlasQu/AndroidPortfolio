@@ -13,6 +13,7 @@ First app I ever developed and it's the one I'm the most proud of since it was t
 - Shared Prefs and multi-language support
 
 **Video presentation:**
+
 ![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/RemindMe-Gif.gif)
 
 **2. MathThat!**
@@ -26,6 +27,10 @@ Calculator with material design. Includes romanian calculator.
 - LiveData and VM coroutines
 
 
+**Video presentation:**
+
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/MathThat-Gif.gif)
+
 **3. Breaking News Guardian API!**
 
 Test app to show that I can work with Retrofit 2 GET calls.
@@ -36,3 +41,8 @@ Test app to show that I can work with Retrofit 2 GET calls.
 - Retrofit 2
 - Recycler View with pagination and DiffUtil
 - Permission usage and network conditions
+
+
+**Video presentation:**
+
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/GuardianAPI-Gif.gif)
