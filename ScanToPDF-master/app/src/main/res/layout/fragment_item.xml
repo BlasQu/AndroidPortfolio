@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.ItemFragment">
+
+    <include layout="@layout/progress_bar"/>
+
+   <RelativeLayout
+       android:id="@+id/relativeLayout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageView
+           android:id="@+id/image_item"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:scaleType="centerCrop"
+           android:background="@drawable/imageview_border2"
+           android:layout_margin="15dp"/>
+
+       <TextView
+           android:id="@+id/text_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="28sp"
+           android:textColor="@color/black"
+           android:layout_toRightOf="@id/image_item"
+           android:maxLines="3"
+           android:layout_margin="5dp"
+           android:padding="5dp"/>
+
+       <TextView
+           android:id="@+id/text_date"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="14sp"
+           android:textColor="@color/black"
+           android:layout_toRightOf="@id/image_item"
+           android:layout_below="@id/text_title"
+           android:layout_margin="5dp"
+           android:maxLines="2"
+           android:padding="5dp"/>
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/btn_deleteitem"
+           android:layout_width="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@id/image_item"
+           android:layout_margin="15dp"
+           android:background="@drawable/btn_delete"
+           android:text="Delete"
+           android:textAllCaps="false"
+           android:textSize="23dp"
+           android:textColor="@color/white"
+           android:layout_height="wrap_content"/>
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/btn_scantopdf"
+           android:layout_alignParentRight="true"
+           android:layout_below="@id/image_item"
+           android:layout_margin="15dp"
+           android:textAllCaps="false"
+           android:text="Scan To PDF"
+           android:textSize="20dp"
+           android:padding="5dp"
+           android:textColor="@color/white"
+           android:background="@drawable/btn_cancel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+   </RelativeLayout>
+</FrameLayout>

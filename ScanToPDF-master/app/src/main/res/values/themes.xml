@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ScanToPDF" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">#99003d</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#ff4d94</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHint">#d9d9d9</item>
+        <item name="searchViewStyle">@style/SearchViewMy</item>
+    </style>
+
+    <style name="SearchViewMy" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="searchHintIcon">@drawable/ic_baseline_search_24s</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+</resources>
