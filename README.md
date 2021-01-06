@@ -1,6 +1,16 @@
 **All Android Projects**
 
-**1. RemindMe!**
+**1. ScanToPDF!**
+
+This project is by far my most satisfying implementation of new methods I had to learn, starting with that I was totally unaware of how to implement 80% of functions occuring in application, however with time I seemed to understand more of its concepts. I completely learned how to support fully working camera with croping, attaching from gallery, accessing all files, requesting advanced permissions and even more details like shapes, animations, transitions and other UI related things.
+(Work time: 35 hours)
+
+App basically is designed to take photo/import from gallery of a document and post nor save it to the PDF file so it can easily be sent with other sources.
+OpenCV library for camera made by **mayuce**.
+
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/ScanToPDF-Gif.gif)
+
+**2. RemindMe!**
 
 App is designed to store neccesary informations like login/password/pin. It also gives a possibility to provide additional description for different credentials.
 First app I ever developed and it's the one I'm the most proud of since it was the most polished one.
@@ -17,7 +27,7 @@ First app I ever developed and it's the one I'm the most proud of since it was t
 
 ![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/RemindMe-Gif.gif)
 
-**2. MathThat!**
+**3. MathThat!**
 
 
 Calculator with material design - includes romanian calculator.
@@ -34,7 +44,7 @@ I developed this app mainly because I was curious how livedata can synchronize w
 
 ![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/MathThat-Gif.gif)
 
-**3. Breaking News Guardian API!**
+**4. Breaking News Guardian API!**
 
 Test app to show that I can work with Retrofit 2 GET calls.
 (Work time: 13 hours)
