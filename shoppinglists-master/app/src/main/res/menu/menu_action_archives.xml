@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/delete"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        app:showAsAction="always"
+        android:title="Delete"/>
+
+    <item android:id="@+id/toStash"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_input_24"
+        android:title="To Stash"/>
+
+    <item android:id="@+id/selectAll"
+        android:icon="@drawable/ic_baseline_select_all_24"
+        app:showAsAction="always"
+        android:title="Select All"/>
+
+
+</menu>

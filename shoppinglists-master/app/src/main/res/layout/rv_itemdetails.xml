@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/icon_shopping_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="30dp"
+        android:src="@drawable/ic_baseline_shopping_basket_24"/>
+    
+    <TextView
+        android:id="@+id/text_item_name"
+        android:layout_width="wrap_content"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/icon_shopping_box"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
+        android:text="Grocery Item"
+        android:textColor="@color/green"
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/text_item_amount"
+        android:layout_width="wrap_content"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/icon_shopping_box"
+        app:layout_constraintTop_toTopOf="@id/guideline"
+        android:layout_margin="4dp"
+        tools:text="X10"
+        android:textColor="@color/green"
+        android:textSize="15sp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <ImageView
+        android:id="@+id/mark"
+        android:layout_width="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:src="@drawable/ic_baseline_check_circle_outline_24"/>
+    
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>
