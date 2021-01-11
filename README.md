@@ -23,12 +23,29 @@ First app I ever developed and it's the one I'm the most proud of since it was t
 - Advanced Alert Dialogs with custom views
 - Shared Prefs and multi-language support
 
+
 **Video presentation:**
 
 ![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/RemindMe-Gif.gif)
 
-**3. MathThat!**
+**Shopping Lists**
 
+Simple shopping lists with dagger hilt, Room databases for each shopping list and details, supporting every screen size and more!
+
+**What tools I used:**
+- MVVM Architecture
+- Dagger Hilt
+- Advanced Alert Dialogs with custom views
+- Advanced Livedata
+- TabLayout with animationUtil
+
+
+**Video presentation:**
+
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/ShoppingLists.gif)
+
+
+**3. MathThat!**
 
 Calculator with material design - includes romanian calculator.
 I developed this app mainly because I was curious how livedata can synchronize with StringBuilder and coroutines at realtime changes on UI.
@@ -43,6 +60,7 @@ I developed this app mainly because I was curious how livedata can synchronize w
 **Video presentation:**
 
 ![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/MathThat-Gif.gif)
+
 
 **4. Breaking News Guardian API!**
 
