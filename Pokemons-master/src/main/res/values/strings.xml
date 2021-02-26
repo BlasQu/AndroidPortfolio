@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pokémons</string>
+    <string name="id">ID: </string>
+    <string name="name">Name: </string>
+    <string name="weight">Weight: </string>
+    <string name="height">Height: </string>
+    <string name="abilities">Abilities</string>
+    <string name="forms">Types</string>
+</resources>
