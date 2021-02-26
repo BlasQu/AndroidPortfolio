@@ -10,7 +10,26 @@ OpenCV library for camera made by **mayuce**.
 
 ![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/ScanToPDF-Gif.gif)
 
-**2. RemindMe!**
+**2. SimpleShopping!**
+
+Reworked shopping lists app with new frameworks, useful tools and options. Designed to have much better practical usage without any useless options.
+
+**What tools I used:**
+- MVVM Architecture
+- ROOM Database
+- Koin DI
+- KotlinFlow, StateFlow, SharedFlow
+- Datastore
+- ActionView in RV
+
+**Screnshots:**
+
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/SimpleShoppingRework%20-%20Screens/1.png)
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/SimpleShoppingRework%20-%20Screens/2.png)
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/SimpleShoppingRework%20-%20Screens/3.png)
+![](https://github.com/BlasQu/AndroidPortfolio/blob/main/SimpleShoppingRework%20-%20Screens/4.png)
+
+**3. RemindMe!**
 
 App is designed to store neccesary informations like login/password/pin. It also gives a possibility to provide additional description for different credentials.
 First app I ever developed and it's the one I'm the most proud of since it was the most polished one.
@@ -45,7 +64,7 @@ Simple shopping lists with dagger hilt, Room databases for each shopping list an
 ![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/ShoppingLists.gif)
 
 
-**3. MathThat!**
+**4. MathThat!**
 
 Calculator with material design - includes romanian calculator.
 I developed this app mainly because I was curious how livedata can synchronize with StringBuilder and coroutines at realtime changes on UI.
@@ -62,7 +81,7 @@ I developed this app mainly because I was curious how livedata can synchronize w
 ![](https://github.com/BlasQu/AndroidPortfolio/blob/main/Android%20App%20Gifs/MathThat-Gif.gif)
 
 
-**4. Breaking News Guardian API!**
+**5. Breaking News Guardian API!**
 
 Test app to show that I can work with Retrofit 2 GET calls.
 (Work time: 13 hours)
